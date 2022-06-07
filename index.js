@@ -137,14 +137,14 @@ console.log("End Of Ladder");
 
 
 var arr = [1, 2, 3, 4, 5, 6, 7];
- console.log(arr);
- for(var i = 0;i<arr.length;i++){
-     if(i==2){
-         break
-         continue;
-     }
-     console.log(arr[i]);
- }
+//  console.log(arr);
+//  for(var i = 0;i<arr.length;i++){
+//      if(i==3){
+//         //  break 
+//          continue;
+//      }
+//      console.log(arr[i]);
+//  }
 
 //  arr.forEach(function(element){
 //      console.log(element);
@@ -159,7 +159,97 @@ let j = 10;
 //     j++;
 // }
 
-do{
-    console.log(arr[j]);
-    j++;
-}while(j < arr.length);
+// do{
+//     console.log(arr[j]);
+//     j++;
+// }while(j < arr.length);
+
+// let myArr = ["Fan", "camera", 34, null,true];
+// Array Methods
+// myArr.pop();
+// myArr.push("Ahmed Raza");
+// myArr.shift();
+// const newLan = myArr.unshift("Ahmed Raza")
+// console.log(newLan);
+// console.log(myArr);
+
+// String Methods in JavaScript
+let mylovelystring = "Ahmed is a good boy";
+// console.log(mylovelystring.length);
+// console.log(mylovelystring.indexOf("good"));
+// console.log(mylovelystring.lastIndexOf("good"));
+
+// console.log(mylovelystring.slice(0,3));
+d = mylovelystring.replace("Ahmed", "Raza");
+// d = d.replace("good","bad");
+// console.log(d, mylovelystring);
+
+
+ let myDate =  new Date();
+//  console.log(myDate.getTime());
+//  console.log(myDate.getFullYear());
+//  console.log(myDate.getDay());
+//  console.log(myDate.getMinutes());
+//  console.log(myDate.getHours());
+
+// DOM Manipulation
+let elem = document.getElementById('click');
+// console.log(elem);
+
+let elemClass = document.getElementsByClassName('container');
+// console.log(elemClass);
+// elemClass[0].style.background = "yellow";
+// elemClass[0].classList.add("bg-primary");
+// elemClass[0].classList.add("text-success");
+// elemClass[0].classList.remove("text-success");
+// console.log(elem.innerHTML);
+// console.log(elem.innerText);
+
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+
+tn = document.getElementsByTagName('div');
+console.log(tn);
+createdElement = document.createElement('p');
+createdElement.innerText = "This is a created Para";
+tn[0].appendChild(createdElement);
+
+createdElement2 = document.createElement('b');
+createdElement2.innerText = "This is a created bold";
+tn[0].replaceChild(createdElement2, createdElement);
+
+
+// Selecting using Query
+// sel = document.querySelector('.container');
+// console.log(sel);
+
+// sel = document.querySelectorAll('.container');
+// console.log(sel);
+
+function clicked(){
+    console.log('The Button was clicked');
+}
+window.onload = function(){
+    console.log('The document was loaded');
+}
+// Evenets in JavaScript
+// firstContainer.addEventListener('click', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<br> We have clicked </b>"
+//     console.log("click on container")
+// });
+
+// firstContainer.addEventListener('mouseover', function(){
+//     console.log("Mouse on container")
+// });
+
+
+let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+firstContainer.addEventListener('mouseup', function(){
+    document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+    console.log("Mouse up when clicked on container")
+});
+
+firstContainer.addEventListener('mousedown', function(){
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked </b>"
+    console.log("Mouse down when clicked on container")
+})
