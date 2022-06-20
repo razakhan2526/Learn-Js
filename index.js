@@ -243,13 +243,15 @@ window.onload = function(){
 // });
 
 
-let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
-firstContainer.addEventListener('mouseup', function(){
-    document.querySelectorAll('.container')[1].innerHTML = prevHTML;
-    console.log("Mouse up when clicked on container")
-});
+// let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+// firstContainer.addEventListener('mouseup', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+//     console.log("Mouse up when clicked on container")
+// });
 
-firstContainer.addEventListener('mousedown', function(){
-    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked </b>"
-    console.log("Mouse down when clicked on container")
-})
+// firstContainer.addEventListener('mousedown', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked </b>"
+//     console.log("Mouse down when clicked on container")
+// });
+
+//SetTimeOut and setinterval
