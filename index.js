@@ -272,3 +272,7 @@ let elemClass = document.getElementsByClassName('container');
 // clearInterval(clr);
 
 // JavaScript localStorage
+// localStorage.setItem('name', 'harry');
+// localStorage.getItem('name');
+
+// json
