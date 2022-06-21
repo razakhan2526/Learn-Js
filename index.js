@@ -208,15 +208,15 @@ let elemClass = document.getElementsByClassName('container');
 // console.log(elemClass[0].innerHTML);
 // console.log(elemClass[0].innerText);
 
-tn = document.getElementsByTagName('div');
-console.log(tn);
-createdElement = document.createElement('p');
-createdElement.innerText = "This is a created Para";
-tn[0].appendChild(createdElement);
+// tn = document.getElementsByTagName('div');
+// console.log(tn);
+// createdElement = document.createElement('p');
+// createdElement.innerText = "This is a created Para";
+// tn[0].appendChild(createdElement);
 
-createdElement2 = document.createElement('b');
-createdElement2.innerText = "This is a created bold";
-tn[0].replaceChild(createdElement2, createdElement);
+// createdElement2 = document.createElement('b');
+// createdElement2.innerText = "This is a created bold";
+// tn[0].replaceChild(createdElement2, createdElement);
 
 
 // Selecting using Query
@@ -226,12 +226,12 @@ tn[0].replaceChild(createdElement2, createdElement);
 // sel = document.querySelectorAll('.container');
 // console.log(sel);
 
-function clicked(){
-    console.log('The Button was clicked');
-}
-window.onload = function(){
-    console.log('The document was loaded');
-}
+// function clicked(){
+//     console.log('The Button was clicked');
+// }
+// window.onload = function(){
+//     console.log('The document was loaded');
+// }
 // Evenets in JavaScript
 // firstContainer.addEventListener('click', function(){
 //     document.querySelectorAll('.container')[1].innerHTML = "<br> We have clicked </b>"
@@ -255,3 +255,20 @@ window.onload = function(){
 // });
 
 //SetTimeOut and setinterval
+// Arrow Functions
+// function  summ(a, b){
+//     return a+b;
+// }
+// summ = (a,b)=>{
+//     console.log("I am your Log");
+// }
+// logKaro = ()=>{
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked </b>"
+//     console.log("I am your Log");
+// }
+
+// SetTimeout and setinterval
+// clr = setInterval(logKaro, 2000);
+// clearInterval(clr);
+
+// JavaScript localStorage
