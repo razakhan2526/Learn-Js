@@ -99,3 +99,49 @@
 // console.log(person.age)
 // console.log(person["age"])
 
+ // Arrow Functions
+
+ //  3 three way to use function
+
+// const function sum(){
+//     const x = 3
+//     const y = 4
+//     console.log("sum is",x+y)
+// }
+
+
+// const sum =  function(){
+//     const x = 3
+//     const y = 4
+//     console.log("sum is",x+y)
+// }
+
+// const sum2 = ()=>{
+//      const x = 3
+//     const y = 4
+//     console.log("sum is",x+y)
+// }
+
+// sum2()
+
+// const greet = ({name,age}) => ({result:`hello ${name} age = ${age}`})
+// {
+
+    // const {name,age} = person
+    // `hello ${name} age = ${age}` 
+    // console.log(`hello ${name} age = ${age}`)
+    // return `hello ${name} age = ${age}`
+    // object log 
+    // return{result:`hello ${name} age = ${age}`}  
+// }
+
+// console.log(greet({name:"Ahmed", age:30}))
+
+// Primitive vs reference type & Spread 
+
+const obj1 = {
+    name: "Ahmed",
+    status: "coder"
+}
+const obj2 = obj1
+console.log(obj2)
