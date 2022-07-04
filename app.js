@@ -139,9 +139,48 @@
 
 // Primitive vs reference type & Spread 
 
-const obj1 = {
-    name: "Ahmed",
-    status: "coder"
-}
-const obj2 = obj1
-console.log(obj2)
+// const user = {
+//     id:1,
+//     username: "Ahmed",
+//     password: "coder",
+//     item: "book"
+// }
+// const obj2 = obj1
+// obj1.name = "Raza"
+
+
+// const cart = {
+//     ...user,
+//     item: "shoes"
+// }
+
+// console.log(cart)
+
+// Arrys, map and filter
+const numbers1 = [10,20,30,40]
+// const numbers2 = [10,20,30,40]
+// spreading array
+// const n2 = [...numbers1,...numbers2]
+
+// destructuring array
+// const [a,b,c,d] = numbers1 
+
+// console.table(d)
+
+// array string 
+const fruits = ['mango','apple','banana']
+ 
+// for(let i=0;i < fruits.length;i++){
+//     console.log(fruits[i])
+// }
+
+// fruits.forEach( (fruits)=>{
+//     console.log(fruits);
+// } )
+
+// array object
+const employee = [
+    {name:"Ahmed",salry:10000},
+    {name:"saim",salry:20000},
+    {name:"Saffe",salry:30000},
+] 
