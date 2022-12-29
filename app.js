@@ -184,3 +184,19 @@ const employee = [
     {name:"saim",salry:20000},
     {name:"Saffe",salry:30000},
 ] 
+
+
+// const empNew = []
+
+// employee.forEach((item)=>{
+//     item.salry += 1000
+//     empNew.push(item)
+// })
+
+// console.table(empNew)
+
+// const empNew = employee.map((item)=>{
+//     item.salry += 1000
+//     return item
+// })
+// console.table(empNew)
